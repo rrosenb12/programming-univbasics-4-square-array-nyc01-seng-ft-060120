@@ -5,4 +5,5 @@ def square_array(array)
   while numbers[counter] do |num|
     new_numbers.push(numbers[num] ** 2)
   end
+  count += 1
 end
