@@ -1,8 +1,8 @@
 numbers = [1,2,3]
-square_array = []
-count = 0
-def square_array(array)
-  while count < 4 do
+new_numbers = []
 
+def square_array(array)
+  numbers.length.times do |num|
+    new_numbers.push(numbers[num] ** 2)
   end
 end
