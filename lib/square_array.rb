@@ -1,4 +1,8 @@
+numbers = [1,2,3]
+new_numbers = []
+
 def square_array(array)
-  numbers = [1,2,3]
-  # your code here
+  numbers.length.times do |numbers|
+    new_numbers.push(numbers[numbers] ** 2)
+  end
 end
